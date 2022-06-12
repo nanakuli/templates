@@ -100,7 +100,6 @@ bin/_pros_ld_timestamp.o
 compile_commands.json
 desktop.ini
 .vscode/*
-.DS_Store
 
 # Additional recommendations, adapted from jpearman's suggestions at
 # https://www.vexforum.com/t/github-with-pros/52291/8.
