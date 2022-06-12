@@ -1,0 +1,82 @@
+# README 
+
+🤖 Repository 2459A - code for abomniation bot.
+
+## Port Information
+
+💻 Brain 21 port device
+
+### Top/Right Ports
+
+- **\[01\]:** Motor:Green  => left front  -   LeftMotorGroupMotorA    ->  LeftMotorGroup
+- **\[02\]:** Motor:Green  => left rear   -   LeftMotorGroupMotorB    ->  LeftMotorGroup
+- **\[03\]:** Motor:Green  => right front -   RightMotorGroupMotorA   ->  RightMotorGroup
+- **\[04\]:** Motor:Green  => right rear  -   RightMotorGroupMotorB   ->  RightMotorGroup
+- **\[05\]:** *empty*
+- **\[06\]:** Motor:Green  => elevator    -   ElevatorMotor
+- **\[07\]:** *empty*
+- **\[08\]:** *empty*
+- **\[09\]:** *empty*
+- **\[10\]:** *empty*
+
+### Bottom/Left Ports
+
+- **\[11\]:** Motor:Red    => claw arm lift   -   ClawLiftMotor
+- **\[12\]:** *empty*
+- **\[13\]:** Motor:Red    => goal lift       -   GoalLiftMotor
+- **\[14\]:** *empty*
+- **\[15\]:** Motor:Red    => claw open/close -   ClawMouthMotor
+- **\[16\]:** *empty*
+- **\[17\]:** *empty*
+- **\[18\]:** *empty*
+- **\[19\]:** *empty*
+- **\[20\]:** *empty*
+
+### Side/Bottom Port
+
+- **\[21\]:** 📡 Radio
+
+## Motor Configurations
+
+- ⏮ Left Motor Group (reverse):   drive forward
+- ⏭ Right Motor Group (forward):  drive forward
+- ⏮ Claw Lift Motor (reverse):    lift claw
+- ⏮ Claw Mouth Motor (reverse):   open claw
+- ⏭ Goal Lift Motor (forward):    feed in goal
+- ⏭ Elevator MotorDir (forward):  upwards
+
+## Controls
+
+🎮 Single Vex V5 Controller
+
+### Joysticks
+
+- 🕹 **Left Joystick:**
+    - ↕️ Vertical Axis (Axis3):   Left Motor Group -> move (forward / backward)
+    - ↔️ Horizontal Axis (Axis4): *unmapped*
+- 🕹 **Right Joystick:**
+    - ↕️ Vertical Axis (Axis2):   Right Motor Group -> move (forward / backward)
+    - ↔️ Horizontal Axis (Axis1): *unmapped*
+
+### Bumper and Trigger
+
+- **Left:**
+    - **\[L1\]** Bumper (top):     Claw -> close
+    - **\[L2\]** Trigger (bottom): Claw -> open
+- **Right:**
+    - **\[R1\]** Bumper (top):     Claw -> Raise
+    - **\[R2\]** Trigger (bottom): Claw -> Lower
+
+### DPAD
+
+- 🔼 Up:    Goal Lift -> down/out/lower
+- 🔽 Down:  Goal Lift -> up/in/raise
+- ◀️  Left:  *unmapped*
+- ▶️  Right: *unmapped*
+
+### Buttons
+
+- **X**: *unmapped*
+- **B**: *unmapped*
+- **A**: Elevator -> in/up
+- **Y**: Elevator -> out/down
