@@ -4,7 +4,7 @@
 
 ## Port Information
 
-💻 Brain 21 port device
+💻 Brain 21 port device (7 serial)
 
 ### Top/Right Ports
 
@@ -36,6 +36,21 @@
 
 - **\[21\]:** 📡 Radio
 
+### Serial Ports
+
+- **\[A\]:** *empty*
+- **\[B\]:** *empty*
+- **\[C\]:** *empty*
+- **\[D\]:** *empty*
+- **\[E\]:** *empty*
+- **\[F\]:** *empty*
+- **\[G\]:** *empty*
+- **\[H\]:** *empty*
+
+## Motor Configurations
+
+- ⏮ Left Motor Group (reverse):     drive forward
+- ⏭ Right Motor Group (forward):    drive forward
 ## Motor Configurations
 
 - ⏮ Left Motor Group (reverse):   drive forward
